@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Michroma", sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    
+    background-image: url('../img/fondo.jpg');
+    /* Ruta de la imagen */
+    background-repeat: repeat;
+    background-size: contain;
+    font-family: "Michroma", sans-serif;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.741);
+    /* Fondo grisáceo claro con opacidad */
+    backdrop-filter: blur(3px);
+    max-width: 800px;
+    align-items: center;
+    border-radius: 20px;
+    margin: 20px auto;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3 {
+    color: #000000;
+    text-align: center;
+}
+
+.cart {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.cart-item {
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.cart-item img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+.item-details {
+    flex-grow: 1;
+    align-items: center;
+}
+.item-details-2{
+    position: relative;
+    left: 85px;
+    margin: 10px;
+}
+input {
+    background: transparent;
+    border-style: none;
+}
+
+
+p{
+    text-align: center;
+}
+.remove-button {
+    background-color: #3498db;
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.resumen{
+    margin: 10px;
+} 
+.resumen li{
+    text-align: center;
+}
+.order-summary {
+    flex-basis: 300px;
+    padding: 20px;
+    background: rgba(163, 163, 163, 0.741);
+    /* Fondo grisáceo claro con opacidad */
+    backdrop-filter: blur(3px);
+}
+
+.checkout-button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.checkout-button-approved {
+    position: relative;
+    left: 95px;
+    background-color: #3586ff; /* Verde */
+    border-radius: 20px;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+

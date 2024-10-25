@@ -1,0 +1,85 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #3586ff;
+    color: white;
+}
+
+.button {
+    background-color: #3586ff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button:hover {
+    background-color: #3586ff;
+}
+
+#modalEditar, #modalAgregar {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd;
+    z-index: 1;
+}
+
+#modalEditar h3, #modalAgregar h3 {
+    color: #333;
+}
+
+#modalEditar form, #modalAgregar form {
+    margin-top: 15px;
+}
+
+#modalEditar button, #modalAgregar button {
+    background-color: #3586ff;
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+#modalEditar button:hover, #modalAgregar button:hover {
+    background-color: #3586ff;
+}
+
+/* Media Query para hacer la tabla más responsive */
+@media screen and (max-width: 600px) {
+    th, td {
+        display: block;
+        width: 100%;
+        box-sizing: border-box;
+    }
+}
